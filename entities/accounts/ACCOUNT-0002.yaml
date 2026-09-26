@@ -1,0 +1,56 @@
+id: ACCOUNT-0002
+type: ACCOUNT
+name: Lovable (lv@appsdigitais.com)
+normalized_key: lovable:lv@appsdigitais.com
+platform: lovable
+platform_stable_id: lv@appsdigitais.com
+status: ACTIVE
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: configuração da conta Lovable
+discovered_at: '2026-09-26T20:41:22.820953Z'
+updated_at: '2026-09-26T20:41:22.820953Z'
+identity:
+  primary_key: lovable:lv@appsdigitais.com
+  identity_type: platform_account
+credential_ref:
+  credential_id: CRED-0002
+  provider: 1password
+  reference: Lovable/lv@appsdigitais.com
+  related_entity: ACCOUNT-0002
+relationships:
+- to: ORG-0001
+  type: belongs_to
+  valid_from: '2026-09-26T20:41:22.820953Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Conta Lovable da Ambern Agency
+- to: EMAIL-0025
+  type: uses_email
+  valid_from: '2026-09-26T20:41:22.820953Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Email de login do Lovable
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T20:41:22.820953Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Acessado no PC Principal
+- to: DEVICE-0002
+  type: accessed_from
+  valid_from: '2026-09-26T20:41:22.820953Z'
+  valid_until: null
+  confidence: 0.7
+  notes: Sincronizado para Notebook Dell
+notes: 'Conta Lovable com 87 créditos. Contém 3 projetos: creditflow dashboard, imobiliaria,
+  alugueis.'
+provenance:
+  source: manual_setup
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T20:41:22.820953Z'

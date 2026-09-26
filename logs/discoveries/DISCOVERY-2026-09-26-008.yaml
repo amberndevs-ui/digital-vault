@@ -1,0 +1,10 @@
+id: DISCOVERY-2026-09-26-008
+type: email_only_import
+source: user_provided_list
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  email_created: EMAIL-0028
+  notes: Apenas email, sem projetos ou contas associadas
+provenance: manual
+discovered_at: '2026-09-26T20:55:49.594683Z'

@@ -1,0 +1,38 @@
+id: EMAIL-0025
+type: EMAIL
+name: lv@appsdigitais.com
+normalized_key: lv@appsdigitais.com
+status: UNKNOWN
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: lista fornecida pelo usuário
+discovered_at: '2026-09-26T20:41:22.820953Z'
+updated_at: '2026-09-26T20:41:22.820953Z'
+identity:
+  primary_key: lv@appsdigitais.com
+  identity_type: email
+credential_ref: null
+relationships:
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T20:41:22.820953Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Conta Lovable acessada no PC Principal
+- to: DEVICE-0002
+  type: accessed_from
+  valid_from: '2026-09-26T20:41:22.820953Z'
+  valid_until: null
+  confidence: 0.7
+  notes: Sincronizado via Dropbox para Notebook Dell
+notes: 'Conta Lovable com 87 créditos. Projetos: creditflow dashboard, imobiliaria,
+  alugueis. Proveniente do PC Principal.'
+provenance:
+  source: user_list_import
+  imported_at: '2026-09-26T20:41:22.820953Z'
+  source_device: DEVICE-0001
+  created_on_device: PC-PRINCIPAL

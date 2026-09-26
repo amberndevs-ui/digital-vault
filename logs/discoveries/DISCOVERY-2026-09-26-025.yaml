@@ -1,0 +1,17 @@
+id: DISCOVERY-2026-09-26-025
+type: codex_account_discovery
+source: user_provided
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  email_created: EMAIL-0029
+  account_created: ACCOUNT-0019
+  service: codex
+  trial_start: '2026-09-10T00:00:00Z'
+  trial_end: '2026-10-10T00:00:00Z'
+  trial_days: 30
+  status: TRIAL
+  expiration_order: 7
+  note: EXPIRA 4 DIAS DEPOIS DO GRUPO 06/10 (2026-10-10)
+provenance: manual
+discovered_at: '2026-09-26T22:44:12.625845Z'

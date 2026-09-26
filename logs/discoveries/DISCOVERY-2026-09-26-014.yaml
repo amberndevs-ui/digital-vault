@@ -1,0 +1,16 @@
+id: DISCOVERY-2026-09-26-014
+type: bank_accounts_discovery
+source: user_provided
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  accounts_created:
+  - ACCOUNT-0007
+  - ACCOUNT-0008
+  email_linked: EMAIL-0003
+  services:
+  - EfiBank
+  - Conta Simples
+  purpose: Contas PJ digitais para Ambern Agency
+provenance: manual
+discovered_at: '2026-09-26T21:58:06.814308Z'

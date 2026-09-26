@@ -1,0 +1,19 @@
+id: DISCOVERY-2026-09-26-004
+type: agency_structure_setup
+source: manual_setup
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  organizations_created:
+  - ORG-0001
+  accounts_created:
+  - ACCOUNT-0001
+  fbprofiles_created:
+  - FBPROF-0001
+  - FBPROF-0002
+  - FBPROF-0003
+  - FBPROF-0004
+  - FBPROF-0005
+  - FBPROF-0006
+provenance: manual
+discovered_at: '2026-09-26T20:28:03.516291Z'

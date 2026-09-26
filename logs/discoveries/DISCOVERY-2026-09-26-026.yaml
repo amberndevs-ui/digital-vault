@@ -1,0 +1,15 @@
+id: DISCOVERY-2026-09-26-026
+type: overclockssh_account_discovery
+source: user_provided
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  email_created: EMAIL-0030
+  account_created: ACCOUNT-0020
+  billing_created: BILLING-0003
+  service: overclockssh
+  plan: ultra
+  renewal_date: '2026-10-05T00:00:00Z'
+  status: ACTIVE
+provenance: manual
+discovered_at: '2026-09-26T22:48:56.886821Z'

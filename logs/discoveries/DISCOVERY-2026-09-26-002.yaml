@@ -1,0 +1,13 @@
+id: DISCOVERY-2026-09-26-002
+type: device_and_email_setup
+source: user_provided_list
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  devices_created:
+  - DEVICE-0001
+  - DEVICE-0002
+  emails_created:
+  - EMAIL-0023
+provenance: manual
+discovered_at: '2026-09-26T20:17:44.150732Z'

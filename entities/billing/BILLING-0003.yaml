@@ -1,0 +1,59 @@
+id: BILLING-0003
+type: BILLING
+name: Overclock SSH Ultra Top (viniciusfmk36@gmail.com)
+normalized_key: overclockssh:ultra:viniciusfmk36@gmail.com
+service: overclockssh
+plan: ultra
+billing_cycle: monthly
+price: null
+currency: BRL
+status: ACTIVE
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: informação fornecida pelo usuário
+discovered_at: '2026-09-26T22:48:56.871533Z'
+updated_at: '2026-09-26T22:48:56.871533Z'
+identity:
+  primary_key: overclockssh:ultra:viniciusfmk36@gmail.com
+  identity_type: subscription
+credential_ref:
+  credential_id: CRED-0024
+  provider: 1password
+  reference: OverclockSSH/viniciusfmk36@gmail.com/billing
+  related_entity: BILLING-0003
+relationships:
+- to: ACCOUNT-0020
+  type: bills_for
+  valid_from: '2026-09-26T22:48:56.871533Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Fatura da conta Overclock SSH
+- to: EMAIL-0030
+  type: billed_to
+  valid_from: '2026-09-26T22:48:56.871533Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Cobrança enviada para viniciusfmk36@gmail.com
+- to: ORG-0001
+  type: belongs_to
+  valid_from: '2026-09-26T22:48:56.871533Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Assinatura da Ambern Agency
+notes: 'Assinatura Overclock SSH plano Ultra Top (mais top). Renovação mensal em 05/10/2026.
+  Email: viniciusfmk36@gmail.com. Plano mais completo disponível.'
+provenance:
+  source: user_provided
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T22:48:56.871533Z'
+billing_details:
+  renewal_date: '2026-10-05T00:00:00Z'
+  plan_name: Ultra Top
+  auto_renew: true
+  payment_method: null
+  next_billing_date: '2026-10-05T00:00:00Z'

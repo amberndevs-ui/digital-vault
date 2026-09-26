@@ -1,0 +1,15 @@
+id: DISCOVERY-2026-09-26-005
+type: lovable_account_setup
+source: user_provided_list
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  email_created: EMAIL-0025
+  account_created: ACCOUNT-0002
+  projects_created:
+  - PROJECT-0001
+  - PROJECT-0002
+  - PROJECT-0003
+  credits: 87
+provenance: manual
+discovered_at: '2026-09-26T20:41:22.820953Z'

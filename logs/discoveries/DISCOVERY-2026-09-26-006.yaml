@@ -1,0 +1,25 @@
+id: DISCOVERY-2026-09-26-006
+type: lovable_account_setup_with_fb_prompt
+source: user_provided_list
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  email_created: EMAIL-0026
+  account_created: ACCOUNT-0003
+  projects_created:
+  - PROJECT-0004
+  - PROJECT-0005
+  - PROJECT-0006
+  domains_created:
+  - DOMAIN-0001
+  - DOMAIN-0002
+  - DOMAIN-0003
+  credits_daily: 5
+  agency: boosplay agency uniflix sistema
+  fb_verification_prompt_stored: true
+fb_verification_prompt_template: 'PROMPT QUE FUNCIONOU PARA APROVAÇÃO NO FACEBOOK:
+  Sites aprovados seguindo o mesmo padrão de prompt/estrutura no Lovable: sermaopronto.site,
+  personalfit.site, bancainfinita.store (lovp_79a3x4y5zt82ct1sfzk2tzjwf7). Estratégia:
+  replicar a mesma linha de prompt para novos projetos.'
+provenance: manual
+discovered_at: '2026-09-26T20:48:32.483336Z'

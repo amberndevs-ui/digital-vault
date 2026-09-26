@@ -1,0 +1,12 @@
+id: DISCOVERY-2026-09-26-003
+type: email_list_import
+source: user_provided_list
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  emails_created:
+  - EMAIL-0024
+email_mapping:
+  EMAIL-0024: viniciusfmk8966@gmail.com
+provenance: manual
+discovered_at: '2026-09-26T20:19:57.922388Z'

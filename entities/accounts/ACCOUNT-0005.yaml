@@ -1,0 +1,57 @@
+id: ACCOUNT-0005
+type: ACCOUNT
+name: GitHub (amberndevs-ui)
+normalized_key: github:amberndevs-ui
+platform: github
+platform_stable_id: amberndevs-ui
+status: ACTIVE
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: informação fornecida pelo usuário (repositório yshorts)
+discovered_at: '2026-09-26T21:02:21.070780Z'
+updated_at: '2026-09-26T21:02:21.070780Z'
+identity:
+  primary_key: github:amberndevs-ui
+  identity_type: platform_account
+credential_ref:
+  credential_id: CRED-0007
+  provider: 1password
+  reference: GitHub/amberndevs-ui
+  related_entity: ACCOUNT-0005
+relationships:
+- to: ORG-0001
+  type: belongs_to
+  valid_from: '2026-09-26T21:02:21.070780Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Organização GitHub da Ambern Agency
+- to: EMAIL-0001
+  type: uses_email
+  valid_from: '2026-09-26T21:02:21.070780Z'
+  valid_until: null
+  confidence: 0.8
+  notes: Possivelmente vinculado ao amberndevs@gmail.com (confirmar)
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T21:02:21.070780Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Acessado no PC Principal
+- to: DEVICE-0002
+  type: accessed_from
+  valid_from: '2026-09-26T21:02:21.070780Z'
+  valid_until: null
+  confidence: 0.7
+  notes: Sincronizado para Notebook Dell
+notes: 'Organização GitHub ''amberndevs-ui'' da Ambern Agency. Contém repositório
+  yshorts (Ambern Studio - kit de construção). Created: 2026-09-15. Stack: JavaScript,
+  Mermaid, Python.'
+provenance:
+  source: user_provided
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T21:02:21.070780Z'

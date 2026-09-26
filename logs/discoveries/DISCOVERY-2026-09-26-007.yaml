@@ -1,0 +1,15 @@
+id: DISCOVERY-2026-09-26-007
+type: lovable_account_setup_branding_force
+source: user_provided_list
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  email_created: EMAIL-0027
+  account_created: ACCOUNT-0004
+  project_created: PROJECT-0007
+  project_url: https://pixel-perfect-copy-699.lovable.app/
+  project_slug: pixel-perfect-copy-699
+  business_type: MEI
+  project_description: Branding Force AI - geração de fotos para perfis Facebook
+provenance: manual
+discovered_at: '2026-09-26T20:50:42.775913Z'

@@ -1,0 +1,55 @@
+id: PROJECT-0008
+type: PROJECT
+name: manusconvite.store
+normalized_key: manusconvite.store
+platform: vercel
+platform_stable_id: null
+primary_domain: manusconvite.store
+github_repo: null
+status: ACTIVE
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: informação fornecida pelo usuário (URL do site)
+discovered_at: '2026-09-26T21:04:16.289892Z'
+updated_at: '2026-09-26T21:04:16.289892Z'
+identity:
+  primary_key: manusconvite.store
+  identity_type: project_domain
+credential_ref: null
+relationships:
+- to: ACCOUNT-0006
+  type: hosted_on
+  valid_from: '2026-09-26T21:04:16.289892Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Projeto hospedado no Vercel (viniciusfmk25@gmail.com)
+- to: ORG-0001
+  type: belongs_to
+  valid_from: '2026-09-26T21:04:16.289892Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Projeto da Ambern Agency - afiliado Manus
+- to: DOMAIN-0004
+  type: primary_domain
+  valid_from: '2026-09-26T21:04:16.289892Z'
+  valid_until: null
+  confidence: 1.0
+  notes: 'Domínio principal: manusconvite.store'
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T21:04:16.289892Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Desenvolvido/gerenciado no PC Principal
+notes: 'Landing page de afiliados do Manus IA (https://www.manusconvite.store/). Oferece
+  1800 créditos gratuitos para novos usuários. Link afiliado: https://manus.im/?ref=affiliate.
+  Página independente - não é site oficial do Manus. Stack: Vercel static/edge.'
+provenance:
+  source: user_provided
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T21:04:16.289892Z'

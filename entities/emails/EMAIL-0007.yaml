@@ -1,0 +1,31 @@
+id: EMAIL-0007
+type: EMAIL
+name: gitvinnyfmk@gmail.com
+normalized_key: gitvinnyfmk@gmail.com
+status: UNKNOWN
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: lista fornecida pelo usuário
+discovered_at: '2026-09-26T20:09:17.273361Z'
+updated_at: '2026-09-26T22:07:39.273455Z'
+identity:
+  primary_key: gitvinnyfmk@gmail.com
+  identity_type: email
+credential_ref: null
+relationships:
+- to: ACCOUNT-0011
+  type: has_account
+  valid_from: '2026-09-06T00:00:00Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Codex (trial 30 dias desde 2026-09-06, expira 2026-10-06) - MESMA DATA DO
+    amberndevs
+notes: Importado de lista fornecida pelo usuário
+provenance:
+  source: user_list_import
+  imported_at: '2026-09-26T20:09:17.273361Z'
+  original_list_position: 7

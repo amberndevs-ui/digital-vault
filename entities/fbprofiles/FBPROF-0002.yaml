@@ -1,0 +1,56 @@
+id: FBPROF-0002
+type: FBPROF
+name: wesley francisco da conceicao
+normalized_key: wesley francisco da conceicao
+platform: facebook
+platform_stable_id: null
+status: ACTIVE
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: lista de perfis Adspower fornecida pelo usuário
+discovered_at: '2026-09-26T20:28:03.516291Z'
+updated_at: '2026-09-26T20:28:03.516291Z'
+identity:
+  primary_key: wesley francisco da conceicao
+  identity_type: facebook_profile_name
+credential_ref:
+  credential_id: CRED-1002
+  provider: 1password
+  reference: Clientes/Wesley Francisco Da Conceicao/Facebook
+  related_entity: FBPROF-0002
+relationships:
+- to: ACCOUNT-0001
+  type: managed_by
+  valid_from: '2026-09-26T20:28:03.516291Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Perfil gerenciado no Adspower (viniciusfmk25@gmail.com)
+- to: ORG-0001
+  type: belongs_to
+  valid_from: '2026-09-26T20:28:03.516291Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Ativo da Ambern Agency
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T20:28:03.516291Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Configurado no Adspower do PC Principal
+- to: DEVICE-0002
+  type: accessed_from
+  valid_from: '2026-09-26T20:28:03.516291Z'
+  valid_until: null
+  confidence: 0.7
+  notes: Adspower sincronizado para Notebook Dell
+notes: 'Perfil Facebook gerenciado via Adspower. Cliente: Wesley Francisco. BM e contas
+  de anúncio associadas a confirmar.'
+provenance:
+  source: user_list_import
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T20:28:03.516291Z'

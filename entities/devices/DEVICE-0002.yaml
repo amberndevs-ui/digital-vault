@@ -1,0 +1,29 @@
+id: DEVICE-0002
+type: DEVICE
+name: Notebook Dell (Hermes)
+device_type: laptop
+os: Windows 11
+hostname: NOTEBOOK-DELL
+location: Mochila / Viagens
+primary_user: vinicius
+status: ACTIVE
+verification:
+  status: VERIFIED
+  last_verified_at: '2026-09-26T20:17:44.150732Z'
+  verification_method: manual
+  confidence: 1.0
+source_type: manual
+source_ref: configuração inicial do vault
+discovered_at: '2026-09-26T20:17:44.150732Z'
+updated_at: '2026-09-26T20:17:44.150732Z'
+identity:
+  primary_key: NOTEBOOK-DELL
+  identity_type: device_hostname
+credential_ref: null
+relationships: []
+notes: Notebook secundário com Hermes instalado, sincronizado via Dropbox.
+provenance:
+  source: manual_setup
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T20:17:44.150732Z'

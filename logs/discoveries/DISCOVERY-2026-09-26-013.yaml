@@ -1,0 +1,24 @@
+id: DISCOVERY-2026-09-26-013
+type: vps_server_setup
+source: user_provided
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  server_created: SERVER-0001
+  cred_created: CRED-0009
+  email_linked: EMAIL-0003
+  provider: vultr (assumido)
+  location: Atlanta
+  ip: 155.138.214.62
+  os: Ubuntu 26.04 LTS x64
+  specs:
+    vcpu: 4
+    ram_mb: 8192
+    storage_gb: 75
+    storage_type: NVMe
+    bandwidth_gb: 0.25
+  username: root
+  auto_backups: true
+  warning: SENHA COMPARTILHADA NO CHAT - ROTAR IMEDIATAMENTE
+provenance: manual
+discovered_at: '2026-09-26T21:38:42.457438Z'

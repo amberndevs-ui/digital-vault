@@ -1,0 +1,60 @@
+id: DISCOVERY-2026-09-26-001
+type: email_list_import
+source: user_provided_list
+items_received: 24
+duplicates_in_list: 2
+items_new: 22
+items_existing: 0
+entities_created: 22
+errors: 0
+ids_allocated:
+- EMAIL-0001
+- EMAIL-0002
+- EMAIL-0003
+- EMAIL-0004
+- EMAIL-0005
+- EMAIL-0006
+- EMAIL-0007
+- EMAIL-0008
+- EMAIL-0009
+- EMAIL-0010
+- EMAIL-0011
+- EMAIL-0012
+- EMAIL-0013
+- EMAIL-0014
+- EMAIL-0015
+- EMAIL-0016
+- EMAIL-0017
+- EMAIL-0018
+- EMAIL-0019
+- EMAIL-0020
+- EMAIL-0021
+- EMAIL-0022
+email_mapping:
+  EMAIL-0001: amberndevs@gmail.com
+  EMAIL-0002: atendimentodigitalcineflick@gmail.com
+  EMAIL-0003: eluizastaford@gmail.com
+  EMAIL-0004: fabiorodriguesdasilva540@gmail.com
+  EMAIL-0005: viniciusfernandestv@gmail.com
+  EMAIL-0006: antropicvinicius@gmail.com
+  EMAIL-0007: gitvinnyfmk@gmail.com
+  EMAIL-0008: viniciuslovable89@gmail.com
+  EMAIL-0009: sharksvinicius@gmail.com
+  EMAIL-0010: devviniciusfmk@gmail.com
+  EMAIL-0011: viniciusearth@gmail.com
+  EMAIL-0012: viniciusfernandesmg6@gmail.com
+  EMAIL-0013: viniciusnewf@gmail.com
+  EMAIL-0014: viniciusfernandesfmk24@gmail.com
+  EMAIL-0015: viniciusfmk19@gmail.com
+  EMAIL-0016: viniciusfmk26@gmail.com
+  EMAIL-0017: viniciusfmk25@gmail.com
+  EMAIL-0018: gptfmk@gmail.com
+  EMAIL-0019: viniciusnuvixtech@gmail.com
+  EMAIL-0020: vinnyfmkagi@gmail.com
+  EMAIL-0021: vinicius.airtable@gmail.com
+  EMAIL-0022: ambernltd.uk@gmail.com
+duplicates_detected:
+- viniciusfernandesfmk24@gmail.com
+- viniciusfernandesfmk24@gmail.com
+provenance: manual
+discovered_at: '2026-09-26T20:09:53.252460Z'

@@ -1,0 +1,19 @@
+id: DISCOVERY-2026-09-26-011
+type: github_repo_discovery
+source: user_provided
+source_device: DEVICE-0001
+created_on_device: PC-PRINCIPAL
+items:
+  account_created: ACCOUNT-0005
+  repo_created: REPO-0001
+  github_org: amberndevs-ui
+  repo_name: yshorts
+  repo_url: https://github.com/amberndevs-ui/yshorts
+  languages:
+  - JavaScript
+  - Mermaid
+  - Python
+  created_at_github: '2026-09-15T04:33:15Z'
+  description: Ambern Studio - kit de construção
+provenance: manual
+discovered_at: '2026-09-26T21:02:21.070780Z'

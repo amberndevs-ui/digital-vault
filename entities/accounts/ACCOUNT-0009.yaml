@@ -1,0 +1,64 @@
+id: ACCOUNT-0009
+type: ACCOUNT
+name: Codex (eluizastaford@gmail.com)
+normalized_key: codex:eluizastaford@gmail.com
+platform: codex
+platform_stable_id: eluizastaford@gmail.com
+status: TRIAL
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: informação fornecida pelo usuário
+discovered_at: '2026-09-26T22:05:01.472641Z'
+updated_at: '2026-09-26T22:05:01.472641Z'
+identity:
+  primary_key: codex:eluizastaford@gmail.com
+  identity_type: platform_account
+credential_ref:
+  credential_id: CRED-0012
+  provider: 1password
+  reference: Codex/eluizastaford@gmail.com
+  related_entity: ACCOUNT-0009
+relationships:
+- to: ORG-0001
+  type: belongs_to
+  valid_from: '2026-09-26T22:05:01.472641Z'
+  valid_until: null
+  confidence: 1.0
+  notes: Conta Codex da Ambern Agency
+- to: EMAIL-0003
+  type: uses_email
+  valid_from: '2026-09-26T22:05:01.472641Z'
+  valid_until: null
+  confidence: 1.0
+  notes: 'Email de login do Codex: eluizastaford@gmail.com'
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T22:05:01.472641Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Acessado no PC Principal
+- to: DEVICE-0002
+  type: accessed_from
+  valid_from: '2026-09-26T22:05:01.472641Z'
+  valid_until: null
+  confidence: 0.7
+  notes: Sincronizado para Notebook Dell
+notes: 'Conta OpenAI Codex (eluizastaford@gmail.com). Trial de 30 dias iniciado em
+  2026-09-26. Expira em 2026-10-26. Acesso via https://codex.openai.com/. IDE: VS
+  Code, terminal.'
+provenance:
+  source: user_provided
+  created_on_device: PC-PRINCIPAL
+  source_device: DEVICE-0001
+  created_at: '2026-09-26T22:05:01.472641Z'
+billing_details:
+  trial_start: '2026-09-26T00:00:00Z'
+  trial_end: '2026-10-26T00:00:00Z'
+  is_trial: true
+  trial_days: 30
+  auto_renew: null
+  next_billing_date: '2026-10-26T00:00:00Z'

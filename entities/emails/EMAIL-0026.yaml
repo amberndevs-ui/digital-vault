@@ -1,0 +1,38 @@
+id: EMAIL-0026
+type: EMAIL
+name: dev@appsdigitais.com
+normalized_key: dev@appsdigitais.com
+status: UNKNOWN
+verification:
+  status: UNVERIFIED
+  last_verified_at: null
+  verification_method: null
+  confidence: null
+source_type: manual
+source_ref: lista fornecida pelo usuário
+discovered_at: '2026-09-26T20:48:16.974118Z'
+updated_at: '2026-09-26T20:48:16.974118Z'
+identity:
+  primary_key: dev@appsdigitais.com
+  identity_type: email
+credential_ref: null
+relationships:
+- to: DEVICE-0001
+  type: accessed_from
+  valid_from: '2026-09-26T20:48:16.974118Z'
+  valid_until: null
+  confidence: 0.9
+  notes: Conta Lovable acessada no PC Principal
+- to: DEVICE-0002
+  type: accessed_from
+  valid_from: '2026-09-26T20:48:16.974118Z'
+  valid_until: null
+  confidence: 0.7
+  notes: Sincronizado via Dropbox para Notebook Dell
+notes: 'Conta Lovable (dev@appsdigitais.com) - 5 créditos diários. Agência: boosplay
+  agency uniflix sistema. Prompt validado para aprovação FB.'
+provenance:
+  source: user_list_import
+  imported_at: '2026-09-26T20:48:16.974118Z'
+  source_device: DEVICE-0001
+  created_on_device: PC-PRINCIPAL
